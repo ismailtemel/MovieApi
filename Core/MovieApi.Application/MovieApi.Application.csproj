@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\MediatorDesignPattern\Commands\" />
+    <Folder Include="Features\MediatorDesignPattern\Handlers\" />
+    <Folder Include="Features\MediatorDesignPattern\Results\" />
+    <Folder Include="Features\MediatorDesignPattern\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\MovieApi.Persistence\MovieApi.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
