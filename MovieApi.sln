@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C566F6DF-2B02-439F-B65E-9BB67C2A4103}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Persistence", "Infrastructure\MovieApi.Persistence\MovieApi.Persistence.csproj", "{42AC30DD-F013-418C-A021-2CE65D8E896C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.WebApi", "Presentation\MovieApi.WebApi\MovieApi.WebApi.csproj", "{4135E445-F741-424A-B073-EEEC4BA84DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.WebUI", "Frontends\MovieApi.WebUI\MovieApi.WebUI.csproj", "{654177B5-257D-44BA-9197-0BAF781FCAA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{4135E445-F741-424A-B073-EEEC4BA84DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4135E445-F741-424A-B073-EEEC4BA84DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4135E445-F741-424A-B073-EEEC4BA84DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654177B5-257D-44BA-9197-0BAF781FCAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654177B5-257D-44BA-9197-0BAF781FCAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654177B5-257D-44BA-9197-0BAF781FCAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654177B5-257D-44BA-9197-0BAF781FCAA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +56,6 @@ Global
 		{48687D38-A533-4BA3-A90D-7E2BA059EA24} = {C566F6DF-2B02-439F-B65E-9BB67C2A4103}
 		{42AC30DD-F013-418C-A021-2CE65D8E896C} = {79275DA8-3920-4D16-A884-FFDA3DBF035D}
 		{4135E445-F741-424A-B073-EEEC4BA84DC5} = {E35F75A6-218F-4A3E-BD84-0CC01606FD39}
+		{654177B5-257D-44BA-9197-0BAF781FCAA0} = {571C23D4-E6B7-45ED-83C7-E4FFCFFEFE05}
 	EndGlobalSection
 EndGlobal
